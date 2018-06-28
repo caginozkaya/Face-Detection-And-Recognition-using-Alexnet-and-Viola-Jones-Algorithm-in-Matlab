@@ -1,11 +1,11 @@
 
 %ATTENTION
-%Before runnig the code, you have to load the matrice that created with the
+%Before runnig the code, you have to load the matrice that you created with the
 %training step. If you hadn't done that go ahead and do it first.
-%Open transfer.m file and follw the instructions.
+%Open transfer.m file and follow the instructions.
 
 while true
-prompt = 'Enter the image:';
+prompt = 'Enter the image path:';
 pic = input(prompt, 's');
 A = imread(pic);
 
