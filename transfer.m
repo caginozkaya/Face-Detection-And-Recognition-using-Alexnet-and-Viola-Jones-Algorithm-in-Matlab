@@ -11,9 +11,9 @@ layers(25) = classificationLayer;
 %For example; in face folder you have a folder named Alice and that folder
 %includes Alice's face photos. And another folder named John...
 %After that you run the code, you change the last layer of the network. 
-%1000 photos for each individual is recomended but in my opinion for little
+%1000 photos for each individual is recommended but in my opinion for little
 %tests 300 per each is enough.
-%You can create the images easily with your phones multiple shooting mode.
+%You can create the images easily with your phone's multiple shooting mode.
 allImages = imageDatastore('myImages3', 'IncludeSubFolders', true, 'LabelSource', 'foldernames');
 [trainingImages, testImages] = splitEachLabel(allImages, 0.8, 'randomize');
 
