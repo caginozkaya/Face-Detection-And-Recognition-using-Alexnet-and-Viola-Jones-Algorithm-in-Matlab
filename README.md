@@ -1,12 +1,12 @@
-# A-Face-Detector-And-Recognizer-in-Matlab-with-Alexnet
+# A Face Detector And Recognizer in Matlab with Alexnet and Viola Jones Algorithm
 
 This is not a ready to run application!!
 
 Follow the steps:
 
-1) First install alexnet.mlpkginstall by navigating to the folder and double clicking it in Matlab.
-2) Than open transfer.m and follow the instructions. You will train the network with your own face images.
-3) Open faceDetect.m and follow the instructions. You should load your trained network. Navigate to the folder and double click on it to load it. Run the program and see the results.
+1) First install alexnet.mlpkginstall by navigating to the destination and double clicking on it in Matlab.
+2) Then open transfer.m and follow the instructions. You will train the network with your own face images.
+3) Open faceDetect.m and follow the instructions. Load your trained network if you have a trained network form your past work. Navigate to the destination folder and double click on it to load it. Run the program and see the results.
 
 # An Example From One of My Trained Networks
 
